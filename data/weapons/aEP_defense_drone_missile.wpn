@@ -1,0 +1,31 @@
+{
+  "id": "aEP_defense_drone_missile",
+  "specClass": "projectile",
+  "projectileSpecId": "aEP_defense_drone_missile_shot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/aEP_empty.png",
+  "hardpointSprite": "graphics/aEP_empty.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [5,0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [5,0],
+  "hardpointAngleOffsets": [0],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "cloudParticleCount": 4,
+    "cloudDuration": 2,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 8,
+    "blowbackDuration": 2,
+    "blowbackLength": 18,
+    "blowbackSpread": 10,
+    "particleColor": [105,105,105,105]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "annihilator_fire"
+}

@@ -1,0 +1,195 @@
+{
+  "hullName": "CengLiu",
+  "hullId": "aEP_CengLiu",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/aEP_cengliu.png",
+  "style": "aEP_FSF",
+  "height": 240,
+  "width": 120,
+  "center": [60, 102],
+  "collisionRadius": 146,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 142.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "aEP_cengliu_cover",
+    "WS0008": "aEP_marker",
+    "WS0009": "aEP_marker"
+  },
+  "builtInMods": [
+    "aEP_MarkerDissipation",
+    "targetingunit"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [76, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [40, -0],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [8, -0],
+      "renderOrderMod": 40
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [106, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-33, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 180,
+      "locations": [-68, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [93, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-28, -16]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-44.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72, 33.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-72, -33.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, 23],
+      "length": 32,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-82, -23],
+      "length": 32,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86, 16],
+      "length": 32,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86, -16],
+      "length": 32,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, 27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, -27.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -83, -19.5,
+    -52.5, -45.5,
+    -18.5, -45.5,
+    -11.5, -37.5,
+    8.5, -37.5,
+    22.5, -29.5,
+    81.5, -29.5,
+    116.5, -8,
+    116.5, 8,
+    81.5, 29.5,
+    22.5, 29.5,
+    8.5, 37.5,
+    -11.5, 37.5,
+    -18.5, 45.5,
+    -52.5, 45.5,
+    -83, 19.5
+  ]
+}

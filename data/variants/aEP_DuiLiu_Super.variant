@@ -1,0 +1,75 @@
+{
+    "displayName": "Super",
+    "fluxCapacitors": 14,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "aEP_DuiLiu",
+    "hullMods": [
+        "targetingunit",
+        "aEP_ControledShield",
+        "aEP_HotLoader"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_DuiLiu_Super",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "aEP_long_barrel_chaingun",
+                "WS0008": "aEP_long_barrel_chaingun",
+                "WS0021": "aEP_long_barrel_chaingun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "aEP_kinetic_flak",
+                "WS0010": "aEP_kinetic_flak",
+                "WS0011": "aEP_kinetic_flak",
+                "WS0012": "aEP_kinetic_flak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0018": "dualflak",
+                "WS0020": "dualflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "pdburst",
+                "WS0016": "pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"MAIN": "aEP_duiliu_main"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "vulcan",
+                "WS0023": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler",
+                "WS0005": "lightneedler",
+                "WS0006": "lightneedler"
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+	"id":"aEP_DroneBurst",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.aEP_DroneBurstAI",
+	"statsScript":"data.shipsystems.scripts.aEP_DroneBurstScript",
+	"engineGlowLengthMult":2.25,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":2,
+	
+	"useSound":"system_burn_drive_loop",
+	
+}

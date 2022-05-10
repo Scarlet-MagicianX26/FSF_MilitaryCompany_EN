@@ -1,0 +1,83 @@
+{
+  "hullName": "aEP_NeiBo_TR",
+  "hullId": "aEP_NeiBo_TR",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aEP_neibo_tr.png",
+  "style": "aEP_FSF",
+  "height": 90,
+  "width": 90,
+  "center": [45, 49.5],
+  "collisionRadius": 53,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "never_detaches",
+    "aEP_ModuleTargeting"
+  ],
+  "builtInWeapons": {
+    "WS0007": "aEP_neibo_cover"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [13, 23],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [13, -23],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [22, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [22, -15]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 0],
+      "renderOrderMod": 10
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -44, -15,
+    -21, -40,
+    1.5, -40,
+    34, -23,
+    34, 23,
+    1.5, 40,
+    -21, 40,
+    -44, 15
+  ]
+}

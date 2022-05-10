@@ -1,0 +1,53 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "aEP_DuiLiu",
+    "hullMods": [
+        "armoredweapons",
+        "targetingunit",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "aEP_DuiLiu_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "railgun",
+                "WS0004": "railgun",
+                "WS0005": "railgun",
+                "WS0006": "railgun",
+                "WS0007": "heavyac",
+                "WS0008": "heavyac",
+                "WS0021": "heavyac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "aEP_high_speed_HE",
+                "WS0010": "aEP_high_speed_HE",
+                "WS0011": "aEP_high_speed_HE",
+                "WS0012": "aEP_high_speed_HE"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+        
+                "WS0015": "pdburst",
+                "WS0016": "pdburst",         
+                "WS0018": "dualflak",
+                "WS0019": "vulcan",
+                "WS0020": "dualflak",
+                "WS0022": "vulcan",
+                "WS0023": "vulcan"
+            }
+        }
+    ]
+}

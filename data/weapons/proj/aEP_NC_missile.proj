@@ -1,0 +1,55 @@
+{
+	"id":"aEP_NC_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/aEP_slow_missile/missile.png",
+	"size":[14,50],	
+	"center":[7,25],
+	"collisionRadius":35,
+	"collisionClass":"MISSILE_NO_FF",
+	"onFireEffect":"data.scripts.weapons.aEP_WeaponEffect",
+	"explosionColor":[40,40,150,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":300, # purely visual
+	"engineSpec":{"turnAcc":160,
+				  "turnRate":80,
+				  "acc":100,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+									"loc":[-25,-3],				
+										    "style":"CUSTOM",
+									"styleSpec":{
+												"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+												"engineColor":[40,40,150,200],
+												"contrailDuration":1,
+												"contrailWidthMult":1.5,
+												"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+												"contrailMinSeg":5, # min segment length, in pixels
+												"contrailMaxSpeedMult":0.5f,
+												"contrailAngularVelocityMult":0.5f,
+												"contrailColor":[40,40,150,75],
+												"type":"SMOKE"},
+							    "width":5,
+							    "length":25.0,
+							    "angle":180.0},	
+							    {"id":"ES2",
+									"loc":[-25,3],				
+										    "style":"CUSTOM",
+									"styleSpec":{
+												"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+												"engineColor":[40,40,150,200],
+												"contrailDuration":1.5,
+												"contrailWidthMult":1,
+												"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+												"contrailMinSeg":5, # min segment length, in pixels
+												"contrailMaxSpeedMult":0.5f,
+												"contrailAngularVelocityMult":0.5f,
+												"contrailColor":[40,40,150,75],
+												"type":"SMOKE"},
+							    "width":5,
+							    "length":25.0,
+							    "angle":180.0},				 			 					
+				    ],
+
+				    
+				
+}

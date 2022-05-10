@@ -1,0 +1,40 @@
+{
+	"id":"aEP_LADamper",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	#"aiType":"PHASE_CLOAK",
+	
+	
+	"jitterColor":[255,165,90,65],
+	"jitterCopies":1,
+	"jitterMinRange":0,
+	"jitterRange":0,
+
+
+	"jitterUnderColor":[255,165,90,175],
+	"jitterUnderCopies":20,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":8,
+	"jitterUnderRangeRadiusFraction":0,
+
+	"statsScript":"data.shipsystems.scripts.aEP_LADamper",
+	
+
+	
+	"weaponGlowColor":[255,165,90,60],
+	"weaponTypes":[ENERGY, BALLISTIC],
+	
+	#"engineGlowColor":[255,90,255,255],
+	
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_ammo_feeder",
+	#"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"aiHints":{
+	}
+}
+
+
+

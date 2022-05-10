@@ -1,0 +1,45 @@
+{
+    "displayName": "AntiSmall",
+    "fluxCapacitors": 2,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "aEP_LiAnLiu",
+    "hullMods": [
+        "ballistic_rangefinder",
+        "targetingunit",
+        "aEP_TargetSystem",
+        "aEP_SoftfluxDissipate"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_LiAnLiu_AntiSmall",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "aEP_high_speed_HE",
+                "WS0002": "aEP_high_speed_HE"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "aEP_EMP_pike"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0009": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "vulcan",
+                "WS0005": "vulcan",
+                "WS0008": "vulcan"
+            }
+        }
+    ]
+}

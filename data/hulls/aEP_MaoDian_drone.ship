@@ -1,0 +1,49 @@
+{
+  "hullName": "MaoDian",
+  "hullId": "aEP_MaoDian_drone",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aEP_maodian02.png",
+  "style": "aEP_FSF",
+  "height": 70,
+  "width": 70,
+  "center": [35, 29],
+  "collisionRadius": 400,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 400,
+  "viewOffset": 0,
+  "builtInMods": [
+    "aEP_MaoDianShield"
+  ],
+  "builtInWeapons": {
+    "WS0002": "aEP_maodian_glow"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 0,
+      "width": 0,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "FSF_MAIN"
+    }
+  ],
+  "bounds": [
+    -24, -16,
+    -3, -28.5,
+    23, -13.5,
+    23, 13.5,
+    -3, 28.5,
+    -24, 16
+  ]
+}

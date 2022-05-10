@@ -1,0 +1,13 @@
+{
+	"id":"aEP_NCReload",
+	"type":"FAST_RELOAD",
+	"aiType":"FAST_RELOAD",
+	#"aiType":"CUSTOM",
+	#"aiScript":"data.shipsystems.scripts.ai.FastMissileRacksAI",
+	"statsScript":"data.shipsystems.scripts.aEP_NCReloadScript",
+	"weaponTypes":[MISSILE],
+	"minFractionToReload":0.35,
+	
+	"useSound":"system_fast_missile_racks",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

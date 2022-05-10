@@ -1,0 +1,123 @@
+{
+  "hullName": "gunship",
+  "hullId": "aEP_gunship_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/aEP_gunship_drone.png",
+  "style": "aEP_FSF",
+  "height": 50,
+  "width": 60,
+  "center": [30, 25],
+  "collisionRadius": 37,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "aEP_gunship_gun",
+    "WS0002": "aEP_gunship_gun",
+    "WS0003": "aEP_gunship_gun",
+    "WS0005": "aEP_gunship_gun",
+    "WS0007": "aEP_gunship_cannon"
+  },
+  "builtInMods": [
+    "autorepair",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 160,
+      "locations": [-1, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -160,
+      "locations": [-1, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [11, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-7, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [11, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-17, -11],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, 17.5],
+      "length": 17.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, -17.5],
+      "length": 17.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -14.5, -13.5,
+    -2.5, -28.5,
+    11.5, -15.5,
+    11.5, 15.5,
+    -2.5, 28.5,
+    -14.5, 13.5
+  ]
+}

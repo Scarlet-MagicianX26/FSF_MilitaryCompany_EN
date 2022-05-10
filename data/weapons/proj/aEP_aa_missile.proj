@@ -1,0 +1,67 @@
+{
+	"id":"aEP_aa_missile",
+	"specClass":"missile",	
+	"missileType":"MIRV",
+	"sprite":"graphics/weapons/aEP_aa_missile/shot.png",
+	"size":[5,12],	
+	"center":[2.5,6],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	#"onHitEffect":"",
+	#"onFireEffect":"",	
+	"explosionColor":[80,40,40,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"engineSpec":{"turnAcc":240,
+				  "turnRate":240,
+				  "acc":400,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-8,0],				
+							"style":"CUSTOM",
+					"styleSpec":{
+								"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+								"engineColor":[200,200,200,160],
+								"contrailDuration":0.75,
+								"contrailWidthMult":1.5,
+								"contrailWidthAddedFractionAtEnd":-0.5,  # can be negative. makes trail spread out/narrow at the end
+								"contrailMinSeg":5, # min segment length, in pixels
+								"contrailMaxSpeedMult":0.5f,
+								"contrailAngularVelocityMult":0.5f,
+								"contrailColor":[140,60,60,250],
+								"glowSizeMult":1.5,
+								"glowAlternateColor":[140,60,60,240],
+								"type":"SMOKE"},
+					"width":4,
+					"length":8,
+					"angle":180.0},				 					
+				    ],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":75,
+					"splitRangeRange":0,
+					"minTimeToSplit":2,
+					"canSplitEarly":false,
+					"splitSound":"",
+					"numShots":1,
+					"damage":400,
+					"emp":0,
+					"damageType":FRAGMENTATION,
+					"hitpoints":100,
+					"evenSpread":false,
+					"arc":1,#face target angle dist to start split
+					"spreadInaccuracy":1,#spread arc range
+					"spreadSpeed":500,#this speed buff + missile speed = real proj speed
+					"spreadSpeedRange":0,
+					"projectileRange":100, # only needed if not a missile
+					"projectileSpec":"aEP_aa_shot",
+					"smokeSpec":{"particleSizeMin":0.0,
+								 "particleSizeRange":0.0,
+								 "cloudParticleCount":0,
+								 "cloudDuration":0,
+								 "cloudRadius":0.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[100,100,100,200]}
+	}				    
+}

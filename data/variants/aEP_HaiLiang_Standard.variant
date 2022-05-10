@@ -1,0 +1,42 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "aEP_HaiLiang",
+    "hullMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "modules": [
+        {"MD01": "aEP_HaiLiang2_Standard"},
+        {"MD02": "aEP_HaiLiang2_Standard"},
+        {"MD03": "aEP_HaiLiang2_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_HaiLiang_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "aEP_suppress_needle",
+                "WS0006": "aEP_suppress_needle"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "aEP_pompom_small",
+                "WS0002": "aEP_pompom_small",
+                "WS0003": "aEP_pompom_small",
+                "WS0004": "aEP_pompom_small"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+    ]
+}

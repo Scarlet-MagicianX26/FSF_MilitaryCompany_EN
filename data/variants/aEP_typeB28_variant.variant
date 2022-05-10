@@ -1,0 +1,43 @@
+{
+    "displayName": "AutoMining",
+    "fluxCapacitors": 0,
+    "fluxVents": 33,
+    "hullId": "aEP_typeB28",
+    "hullMods": [
+        "solar_shielding",
+        "fluxbreakers"
+    ],
+    "modules": [
+        {"WS0023": "aEP_typeA28_variant"},
+        {"WS0002": "aEP_typeR28_variant"},
+        {"WS0001": "aEP_typeL28_variant"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_typeB28_variant",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "aEP_type28_cannon",
+                "WS0004": "aEP_type28_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "hephag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "mark9"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "mark9"}
+        }
+    ]
+}

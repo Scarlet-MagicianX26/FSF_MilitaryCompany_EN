@@ -1,0 +1,20 @@
+{
+	"id":"aEP_CLWeaponReset",
+	"type":"STAT_MOD",
+	#have to use this ai with stat_mod
+	"aiType":"WEAPON_BOOST",
+	#"aiType":"CUSTOM",
+	#"aiScript":"data.shipsystems.scripts.ai.aEP_ZLAmmoFeedAI",
+	"statsScript":"data.shipsystems.scripts.aEP_WeaponReset",
+   
+	"weaponGlowColor":[200,200,100,45],
+	"weaponTypes":[BALLISTIC],
+	
+
+	
+	"runScriptWhileIdle":true,  # this means unapply() never gets called	
+	"useSound":"system_ammo_feeder",
+	"deactivateSound":"aEP_LoaderEnd",
+	#"outOfUsesSound":"aEP_LoaderEnd",
+	
+}

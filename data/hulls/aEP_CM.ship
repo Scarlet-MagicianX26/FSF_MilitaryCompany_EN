@@ -1,0 +1,84 @@
+{
+  "hullName": "CruiseMissile",
+  "hullId": "aEP_CM",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aEP_CM.png",
+  "style": "aEP_FSF",
+  "height": 120,
+  "width": 80,
+  "center": [40, 49],
+  "collisionRadius": 75,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 49,
+  "viewOffset": 0,
+  "builtInMods": [
+    "aEP_CruiseMissile"
+  ],
+  "builtInWeapons": {
+    "WS0001": "aEP_empty"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, -0],
+      "length": 94,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "FSF_MAIN"
+    },
+    {
+      "location":[-18, 0],  
+      "width":10.0,
+      "length":120.0,
+      "angle":180.0,
+      "contrailSize": 19,
+      "style":"CUSTOM",
+      "styleSpec":{
+        "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor":[150,150,250,255],
+        "contrailDuration":1.5,
+        "contrailWidthMult":1,
+        "contrailWidthAddedFractionAtEnd":0.8,  # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg":5, # min segment length, in pixels
+        "contrailMaxSpeedMult":0f,
+        "contrailAngularVelocityMult":0.5f,
+        "contrailSpawnDistMult":0f, # how far away from engine it starts
+        "contrailColor":[180,180,250,220],
+        "glowSizeMult":3,
+        "glowAlternateColor":[100,100,100,255],
+        "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode		
+      },				
+    },
+  ],
+  "bounds": [
+    -42.5, -7,
+    -23, -9.5,
+    -26, -20.5,
+    -21.5, -25.5,
+    -10.5, -11,
+    4.5, -4.5,
+    33, -4.5,
+    34, -11.5,
+    43.5, -3.5,
+    43.5, 3.5,
+    34, 11.5,
+    33, 4.5,
+    4.5, 4.5,
+    -10.5, 11,
+    -21.5, 25.5,
+    -26, 20.5,
+    -23, 9.5,
+    -42.5, 7
+  ]
+}

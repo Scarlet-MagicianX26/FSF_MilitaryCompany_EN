@@ -1,0 +1,27 @@
+{
+  "id": "aEP_nuke_fighter_chain",
+  "specClass": "projectile",
+  "projectileSpecId": "aEP_nuke_fighter_missile_chain",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "autocharge": true,
+ 
+}

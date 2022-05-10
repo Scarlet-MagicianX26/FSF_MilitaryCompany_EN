@@ -1,0 +1,69 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullId": "aEP_ShangShengLiu_mk2",
+    "hullMods": [
+        "aEP_TargetSystem",
+        "targetingunit",
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "modules": [
+        {"M01": "aEP_ShangShengLiu_armor_Standard"},
+        {"M02": "aEP_ShangShengLiu_armor_Standard"},
+        {"M03": "aEP_ShangShengLiu_armor_Standard"},
+        {"M04": "aEP_ShangShengLiu_armor_Standard"},
+        {"M05": "aEP_ShangShengLiu_armor_Standard"},
+        {"M06": "aEP_ShangShengLiu_armor_Standard"}
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_ShangShengLiu_mk2_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "L01": "lightdualac",
+                "L02": "lightdualac",
+                "L03": "lightdualac",
+                "L04": "lightdualac",
+                "L05": "lightdualac",
+                "L06": "lightdualac",
+                "L07": "aEP_trauma_cannon",
+                "L08": "aEP_trauma_cannon",
+                "L09": "aEP_EMP_pike"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "R01": "lightdualac",
+                "R02": "lightdualac",
+                "R03": "lightdualac",
+                "R04": "lightdualac",
+                "R05": "lightdualac",
+                "R06": "lightdualac",
+                "R07": "aEP_trauma_cannon",
+                "R08": "aEP_trauma_cannon",
+                "R09": "aEP_EMP_pike"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0008": "hephag"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "flak",
+                "WS0007": "flak"
+            }
+        }
+    ]
+}

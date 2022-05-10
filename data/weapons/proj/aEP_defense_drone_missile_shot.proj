@@ -1,0 +1,41 @@
+{
+	"id":"aEP_defense_drone_missile_shot",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/missile_annihilator.png",
+	"size":[4,18],	
+	"center":[2,9],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,180,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"noEngineGlowTime":0, # time spent without the engine glow being rendered
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"fadeTime":0.5, # fadeout duration, fly time after flameout = flameoutTime - fadeTime
+	"engineSpec":{"turnAcc":808,
+				  "turnRate":35,
+				  "acc":400,
+				  "dec":400},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],				   
+				  "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,100,100,250],
+						"contrailDuration":.5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[75,75,75,250],
+						"glowSizeMult":1.5,
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}
+
+			

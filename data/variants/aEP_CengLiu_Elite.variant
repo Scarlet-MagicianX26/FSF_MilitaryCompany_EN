@@ -1,0 +1,45 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 0,
+    "fluxVents": 13,
+    "goalVariant": true,
+    "hullId": "aEP_CengLiu",
+    "hullMods": [
+        "aEP_SoftfluxDissipate",
+        "aEP_TargetSystem",
+        "aEP_HotLoader"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "aEP_CengLiu_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "aEP_kinetic_flak",
+                "WS0005": "aEP_kinetic_flak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "aEP_long_barrel_chaingun"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "aEP_EMP_pike"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "aEP_vulcan"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "aEP_pompom_small"}
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"id":"aEP_CM_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+  	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FF",
+	"length":75.0,
+	"hitGlowRadius":120,
+	"width":45.0,
+	"fadeTime":0.25,
+	"passThroughMissiles":true,	
+	#"onHitEffect":"",
+	"coreColor":[255,100,100,255],
+	"glowColor":[250,100,100,75],
+	"glowRadius":50,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

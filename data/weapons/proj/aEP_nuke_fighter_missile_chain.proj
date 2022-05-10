@@ -1,0 +1,35 @@
+{
+	"id":"aEP_nuke_fighter_missile_chain",
+	"specClass":"projectile",
+    "spawnType":"BALLISTIC",
+    "length":1,
+    "width":1,
+    "fadeTime":0,
+    "collisionClass":"NONE",
+    "collisionClassByFighter":"NONE",
+    "fringeColor":[240,220,170,0],
+    "coreColor":[245,52,52,0],
+    "glowColor":[255,165,30,0],
+    "glowRadius":0,
+    "hitGlowRadius":0,
+    "textureScrollSpeed":64.0,
+    "pixelsPerTexel":5.0,
+    "bulletSprite":"graphics/aEP_empty.png",
+    "behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+                    "range":300,
+                   	"explosionSpec":{"duration":0.1f,
+                                     "radius":300,
+                                     "coreRadius":75, # full damage within core radius
+                                     "collisionClass":MISSILE_FF,
+                                     "collisionClassByFighter":MISSILE_NO_FF,
+                                     "particleSizeMin":5.0,
+                                     "particleSizeRange":5.0,
+                                     "particleDuration":0,
+                                     "particleCount":0,
+                                     "particleColor":[0,0,0,0],
+                                     "explosionColor":[0,0,0,0],
+                                     "sound":""},
+                    }
+
+
+}
