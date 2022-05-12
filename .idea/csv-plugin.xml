@@ -129,7 +129,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\hulls\wing_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\hulls\wing_data_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\hulls\wing_reference.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -144,6 +158,13 @@
           </value>
         </entry>
         <entry key="\data\shipsystems\ship_systems_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\strings\descriptions.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
