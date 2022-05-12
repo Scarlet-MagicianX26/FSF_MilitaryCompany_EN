@@ -1,6 +1,6 @@
 name,id,tier,tech/manufacturer,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
 #独特内置船插,,,,,,,,,,,,,,,,,,
-Javelin Weapon Calibration Radar,aEP_BBAdjustRange,0,FSF设计,,,,0,,TRUE,,0,0,0,0,data.hullmods.aEP_BBAdjustRange,标兵级舰体中央的激光雷达，以一种另辟蹊径的方式为这艘战舰提供的所需的射程，当然也不兼容常规的目标定位系统。本舰PD武器射程提升百分之{%s},,graphics/hullmods/ecm_package.png
+标兵武器校准雷达,aEP_BBAdjustRange,0,FSF设计,,,,0,,TRUE,,0,0,0,0,data.hullmods.aEP_BBAdjustRange,标兵级舰体中央的激光雷达，以一种另辟蹊径的方式为这艘战舰提供的所需的射程，当然也不兼容常规的目标定位系统。本舰PD武器射程提升百分之{%s},,graphics/hullmods/ecm_package.png
 装卸机械臂,aEP_Tugboat,0,FSF设计,,,,0,,TRUE,,0,0,0,0,data.hullmods.aEP_Tugboat,本舰充足的动力足以拖动其他舰船，将舰队中宇宙航速最低的一艘舰船的最大速度提升至与本舰相同,,graphics/hullmods/repair_gantry.png
 Type28护盾发生器,aEP_Type28Shield,0,unknown,,,,0,,TRUE,,0,0,0,0,data.hullmods.aEP_Type28Shield,一个逻辑计算错误的伽马核心为舰体加装了独立的护盾发生器模块，几乎等同于驱逐舰的体积的模块大小给予了其极好的护盾效率，作为代价拥有对等的维持消耗。此发射器模块无法安装任何插件,,graphics/aEP_hullmods/aEP_HL_multi_turret.png
 巡航导弹运载舰,aEP_CruiseMissileCarrier,0,FSF设计,,,,0,,TRUE,,0,0,0,0,data.hullmods.aEP_CruiseMissileCarrier,随时间装载货舱中的巡航导弹，完成装载后可以于战斗中发射,,graphics/aEP_hullmods/aEP_CM_carrier.png

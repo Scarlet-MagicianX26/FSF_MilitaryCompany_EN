@@ -1,11 +1,11 @@
 {
  "graphics":{
 		"aEP_backgrounds":{
-			"background1":"graphics/aEP_background/background1.jpg"
+			"background1":"graphics/aEP_background/background1.jpg",
 		},
 		"blueprint_packages":{
       "FSF_bp":"graphics/aEP_items/FSF_bp.png",
-      "FSF_openbp":"graphics/aEP_items/FSF_openbp.png"
+      "FSF_openbp":"graphics/aEP_items/FSF_openbp.png",
      
 		},
 		"aEP_FX":{
@@ -40,14 +40,14 @@
 			"shred":"graphics/weapons/aEP_large_kinetic_flak/shred.png",
 			"aEP_empty":"graphics/aEP_empty.png",
 
-			"noise":"graphics/aEP_FX/noise.png"
+			"noise":"graphics/aEP_FX/noise.png",
 		}, 
 		"fx":{
 			"aEP_trail_smoke":"graphics/aEP_FX/trails/3.png",
 			"aEP_trail_rough":"graphics/aEP_FX/trails/2.png",
 			"aEP_trail_rough_more":"graphics/aEP_FX/trails/1.png",
 			"aEP_trail_flame":"graphics/aEP_FX/trails/4.png",
-			"aEP_trail_smooth_with_bright_core":"graphics/aEP_FX/trails/5.png"
+			"aEP_trail_smooth_with_bright_core":"graphics/aEP_FX/trails/5.png",
 			
 		},
 		"weapons":{
@@ -79,22 +79,22 @@
 			"aEP_shield_inner02":"graphics/aEP_hullstyle/shield_inner02.png",
 			"aEP_shield_outer02":"",
 			"aEP_shield_inner03":"graphics/aEP_hullstyle/shield_inner03.png",
-			"aEP_shield_outer03":"graphics/aEP_hullstyle/shield_outer03.png"
+			"aEP_shield_outer03":"graphics/aEP_hullstyle/shield_outer03.png",
 		}, 
 		"aEP_ui":{
  			"multi_turret":"graphics/aEP_hullsys/multi_turret.png",
  			"controled_shield":"graphics/aEP_hullsys/controled_shield.png",
- 			"marker_dissipation":"graphics/aEP_hullsys/marker_dissipation.png"
+ 			"marker_dissipation":"graphics/aEP_hullsys/marker_dissipation.png",
  		},
  		"aEP_portraits":{
- 			"aEP_researcher":"graphics/aEP_portraits/1.png"
+ 			"aEP_researcher":"graphics/aEP_portraits/1.png",
  		},
  		"aEP_icons":{
- 			"AWM1":"graphics/aEP_icons/intels/1.png"
+ 			"AWM1":"graphics/aEP_icons/intels/1.png",
  		},
  		"aEP_campaign":{
- 			"cruise_missile":"graphics/aEP_campaign/cruise_missile.png"
- 		}
+ 			"cruise_missile":"graphics/aEP_campaign/cruise_missile.png",
+ 		},
  		
 	
  },
@@ -103,17 +103,18 @@
  {
  		"a111164CampaignPlugin":"data.scripts.campaign.a111164CampaignPlugin",
     "aEP_BuffEffect": "combat.plugin.aEP_BuffEffect",
-    "aEP_CombatEffectPlugin": "combat.plugin.aEP_CombatEffectPlugin"
+    "aEP_CombatEffectPlugin": "combat.plugin.aEP_CombatEffectPlugin",
+    #"aEP_RotateSlot": "data.scripts.plugins.aEP_RotateSlot"
  },
 	
 	
 	
 	"designTypeColors":
 	{
-		"FSF Manufacturing":[180,180,150,255],
-		"FSF Design":[180,180,150,255],
-		"FSF Advanced Weapons Program":[180,180,150,255],
-		"FSF":[180,180,150,255]
-	}
+		"FSF制造":[180,180,150,255],
+		"FSF设计":[180,180,150,255],
+		"FSF先进武器计划":[180,180,150,255],
+		"FSF":[180,180,150,255],
+	},
 
 }
