@@ -1,8 +1,8 @@
 {
 	id:"aEP_FSF_only",
 	"color":[180,180,150,255],
-	"displayName":"FSF军事公司",
-	"displayNameWithArticle":"FSF军事公司",
+	"displayName":"FSF Military Company",
+	"displayNameWithArticle":"FSF Military Company",
 	"logo":"graphics/aEP_factions/FSF.png",
 	"crest":"graphics/aEP_factions/crest_FSF.png",
 	"shipNamePrefix":"FSF",

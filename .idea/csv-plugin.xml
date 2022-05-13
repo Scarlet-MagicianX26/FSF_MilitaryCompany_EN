@@ -150,7 +150,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\lights\FSF_texture_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\missions_CN\mission_list.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\shipsystems\ship_systems.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -172,6 +186,13 @@
           </value>
         </entry>
         <entry key="\data\strings\descriptions_CN.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\weapons\weapon_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
