@@ -38,11 +38,11 @@ aEP_DroneDash,SHIP_SYSTEM,"Accelerates and significantly increases maximum speed
 ,,,,,
 #船&&内置,,,,,
 ,,,,,
-aEP_BB_radar,WEAPON,"""标兵""级著名的武器校准雷达，会发射大量电磁波。以这种功率的雷达而言，仅仅是照射就能造成船体破坏和EMP伤害。至少对于护卫舰级别的船体请不要暴露船体于如此大功率的雷达下。",,,
-aEP_NC_missile,WEAPON,"""暖池""级引人注目的又一个焦点，从导弹的大小就能看出它的效果不一般。将某种参数修改装置封装于弹内，引爆后会使大范围的敌方舰船几乎无法移动",,,
-aEP_ZZ_cannon,WEAPON,"""专注""级舰体中安装的一种三联高斯炮，口径虽然不大，多亏了在创伤炮上实验完善的抛壳散热系统，能以与体积不符的射速向远距离目标释放子弹洪流，一门武器就能解决反护盾问题。",,,
-aEP_tearing_beam,WEAPON,内置舰船中的分解光束，在非拆解任务时也能充当零时点防御武器，当然其射程和威力就无法期待了,,,;
-aEP_aa_missile,WEAPON,在FSF舰船中随处可见的二段激发导弹，具备惊人的机动性和射程，能造成较高的破片伤害，对于战机这种缺乏装甲的目标起到毁灭性效果,,,
+aEP_BB_radar,WEAPON,"The ""Pacesetter"" class famously has a outsized weapons calibration radar. For a radar of this power, mere exposure can cause hull damage and EMP damage. It is recommended that frigates are to not expose themselves to such a high powered radar.",,,
+aEP_NC_missile,WEAPON,"Another focal point of the striking ""Warmpool"" class, the size of the missile gives an indication of its unusual effectiveness. Encapsulating some sort of parameter-modifying device within the projectile, its detonation would render a wide range of enemy ships virtually immobile.",,,
+aEP_ZZ_cannon,WEAPON,"""专注""级舰体中安装的一种三联高斯炮，口径虽然不大，多亏了在创伤炮上实验完善的抛壳散热系统，能以与体积不符的射速向远距离目标释放子弹洪流，一门武器就能解决反护盾问题。#redunant",,,
+aEP_tearing_beam,WEAPON,"The disintegration beam built into the ship can also act as a point defence weapon during non-disintegration missions, although its range and power cannot be guaranteed.",,,;
+aEP_aa_missile,WEAPON,"This two-stage missile found on FSF ships, has amazing manoeuvrability and range, and is devastating to targets such as fighters that lack armour thanks to its fragmentation warhead.",,,
 aEP_duiliu_main,WEAPON,用来打破临界点的武器，这套系统使用多级电磁加速赋予金属难以想象的动能，装备这种武器的战舰能将敌人彻底沉入光线永远无法到达的深空,,,
 aEP_rq_missile,WEAPON,内置的中型反舰导弹，尽管性能劣于常规同级，配合战术系统可以连续发射，对于已经失去防御能力的舰船有很大的威胁,,,
 aEP_yangzhongji_gun,WEAPON,可以大量布置的廊炮阵列，发射所消耗的幅能较少，伤害足够威胁大部分舰船。问题在于廊炮外置导致精度极差，以及过重弹头缓慢的飞行速度。,,,
@@ -72,20 +72,19 @@ The fuel needed to operate this monster engine comes directly from the cargo of 
 ,,,,,
 aEP_HaiLiang,SHIP,"This cruiser, built similar to fire support platform of the space station, is designed as a kind of suppression warship. In order to complete the suppression of a large number of small ships, the Seaweight-Class has large slots in each direction to provide range and firepower advantages, and thus does not encounter the problem of facing multiple enemies in different directions with a single turret.  In the suppression mission, the relatively unimportant aspect of maneuverability and frontal capability is sacrificed. Few forces in the Sector have ordered this kind of warship, mainly because they generally have their own warships for these sort of specialist tasks, but a few marginal planets will order a small number to counter the use of high-speed ships for raids by small pirate groups.
 ",,,
-aEP_ZhongLiu,SHIP,"成为FSF舰队中流砥柱的型号，作为常规巡洋舰的中流级从设计上将公司舰船的特色体现的淋漓尽致。防御性能仅略强于轻巡洋舰的中流级却缺少最重要的机动性，使它成为一个非常容易被摧毁的目标，但形成一定规模后与其他舰船分摊压力时，中流级能用角度广而重合的槽位快速摧毁任何舰船。
+aEP_ZhongLiu,SHIP,"The mainstay of the FSF fleet, the Midstream-Class was designed as a conventional cruiser made to make the best out of the company's strengths. Only slightly more protected than a typical light cruiser the Nakuru lacks the all-important manoeuvrability that makes it such an easy target to destroy, but when built up to a certain size and sharing the pressure with other ships, the Nakuru can quickly destroy any ship with a wide angle and overlapping slots.
 
-中流级强大的槽位设计在额外射程的加持下使得它拥有主力舰级别的炮战能力，保护好脆弱的它们是在一场战斗中胜利的关键。中流级在FSF的舰队中算服役较晚的一批设计，因此应用的技术和设计思路都非常成熟，从它的身上可以一窥其原型机的大概。",,,
-aEP_ReQuan,SHIP,基于侧击级舰体改造而来的一艘轻型导弹舰，作为暖池级的轻量化版本保留了内置导弹工厂。设计重心倾向易于生产的热泉级仅有有限的槽位用来安装自卫武器，这意味着面对任何冲到其附近的舰船——甚至是护卫舰也能轻松解决掉它。但即使有着诸多缺点，只是较低的部署消耗这一点就足以成为舰队指挥青睐它的理由。,,,
-aEP_ZhuanZhu,SHIP,"FSF自主设计的炮击巡洋舰，搭载着巨型高斯炮与实验性质的武器切换系统，参考了统治者级的设计，拥有出色的正面火力，同时大槽位的射程优势也不可小觑。这种将舰船过多的火力内置于船体中的做法饱受舰船设计师们的批评，称其大大降低了舰船的装配自由性，难以针对特殊任务进行针对调整，但这门三联高斯炮的火力让所上手的人都停止了抱怨。
-对于发射动能子弹的巨型武器，往往绕不开子弹口径，射程与效率三者间的平衡，三联高斯炮为了同时维持射程与相对较高的效率，选择减少子弹的口径，采取多管同时发射的方式制造大量伤害。""专注""级上使用了实验性质的武器切换系统，用来补偿核心纪元战舰普遍存在的实弹与能量武器射程差的问题，与其在过分的边际效应中提升能量武器射程，不如根据目标的远近在合适的时间选择合适的武器种类。尽管机动差劲，靠近""专注""的舰船要好好考虑一下能否承受只有在拓展纪元舰船上才足以供给的能量武器的狂轰滥炸。
-",,,;
+The Midstream's powerful slot design combined with its extra range gives it a mainline level of gunnery capability, and protecting their vulnerability is the key to victory in a battle. The Midstream was one of the later designs to enter service in the FSF's fleet and as such represents the maturing of the Company's homemade designs.",,,
+aEP_ReQuan,SHIP,"A light missile ship based on the hull of the Sidestrike class, it retains its built-in missile factories as a lighter version of the Warmpool class. Designed with a focus on ease of production, the Hot Spring class has only a limited number of slots for self-defence weapons, meaning that it can easily be taken out by any ship - even a frigate - that rushes into its vicinity. But even with its many drawbacks, its low deployment cost is reason enough for fleet commanders to favour it.",,,
+aEP_ZhuanZhu,SHIP,"An indigenously designed gunnery cruiser, armed with a giant Gauss Cannon with an experimental weapon switching system, taking reference from the design of the Dominator class and possessing excellent frontal firepower, possessing a range advantage that cannot be understimated. This practice of building too much of the ship's firepower into the hull was much criticised by ship designers, who claimed that it greatly reduced the ship's versatility and made it difficult to tailor it for specific missions, but that complaint is often rebuked by the sheer firepower that it provides.
+对于发射动能子弹的巨型武器，往往绕不开子弹口径，射程与效率三者间的平衡，三联高斯炮为了同时维持射程与相对较高的效率，选择减少子弹的口径，采取多管同时发射的方式制造大量伤害。""专注""级上使用了实验性质的武器切换系统，用来补偿核心纪元战舰普遍存在的实弹与能量武器射程差的问题，与其在过分的边际效应中提升能量武器射程，不如根据目标的远近在合适的时间选择合适的武器种类。尽管机动差劲，靠近""专注""的舰船要好好考虑一下能否承受只有在拓展纪元舰船上才足以供给的能量武器的狂轰滥炸。",,,;
 aEP_ZhuanZhu_mk2,SHIP,"针对公司策略转向独立成军而重新设计的""专注""级，把占据舰体中间部分的三联高斯炮换成了通用的大槽位，战术系统也由实验性质的武器切换系统改为了反冲力系统。定位并非为对外销售强调单舰属性，而是更多的为舰队作战服务，牺牲装甲换取火力的同时靠战术系统保证战场生存。
 反冲力系统并不能如机动推进器一样为舰船提供无与伦比的机动性，在爆发性后撤后没有队友的支援它就像它的基础型一样容易被摧毁。值得一提的是，快速改变速度对船内设计提出了更高的要求，尽管内置缓滞的立场能将巨大的加速度转为能量再缓慢释放以保护舰员，使用系统对于桌子上放满咖啡的杯子是一次毁灭性的打击。",,,
 aEP_PingDing,SHIP,平定级在FSF的舰队中并不常见，因为其过于特化的设计常常只在围攻最困难的目标时才有它们出场的机会，这种拥有双主炮的炮击舰能在大部分舰船火控系统的锁定距离外的就摧毁它们。尽管自第一艘平定级在摧毁海盗聚集地任务中露面以来，这些舰船从未被用于势力冲突，但这些战争游戏规则的改变者永远被FSF的敌人纳入了考量。,,,
 aEP_ShanHu,SHIP,一种支援航母，作为增强公司舰队航空能力的一环，在最初版中最大速度和部署消耗都比现在优秀的多。但在之后的讨论中不断的加料使之变成了并不存粹的航空母舰，而是同时集成了导弹与护盾无人机系统的支援平台。,,,
 ,,,,,
-aEP_ShenCeng,SHIP,设计过于极端的导弹驱逐舰，在轻型巡洋舰的体积中同时安排大型导弹与航空甲板有些过于勉强了，使得深层级除了寥寥几个点防御槽位外没有任何安装武器的空间。这艘舰船最引人争议的地方在于庞大的舰体只配备了驱逐舰级的子系统，诸多迹象表明这艘新推出的驱逐舰是某种更加特化舰船的普适改造版本,,,;
-aEP_ShenCeng_mk2,SHIP,深层级重型导弹驱逐舰的原型，为了运输和发射巡洋导弹所设计的载具，仅搭载了必须的点防御槽位以对抗危险环境，这也解释了为什么如此庞大的舰体仅配备驱逐舰级别的子系统，因为其最初就只是作为载具而存在。,,,;
+aEP_ShenCeng,SHIP,"The design is stretches the limit of what a typical missile destroyer is, featuring a large missile and flight deck in a light cruiser package, leaving the Deeplayer-Class with no room for weapons other than a few point defence slots. The most controversial aspect of the ship is that the massive hull is equipped with only destroyer-class subsystems, and there are many indications that this newly launched destroyer is some kind of generalised version of a more specialised vessel.",,,;
+aEP_ShenCeng_mk2,SHIP,"A prototype of the Deeplayer-Class Heavy Missile Destroyer, a carrier designed to transport and launch cruiser missiles, carrying only the necessary point defence slots to combat environments - which explains why such a large hull is equipped with only destroyer-class subsystems, as it originally existed as a pure carrier.",,,;
 aEP_YangJi,SHIP,一种在两侧塞满了廊炮，拥有重火力的战舰，也是FSF外售的经典型号，在防护火力和机动上取得了较好的平衡，而内置的防空弹幕发射器给予其更一层生存性。作为外售型，普适性是设计的第一指标，简单的维护要求和略大于普通驱逐舰的吨位使它在边缘星系异常受欢迎。在单舰和小规模冲突中表现优异，但过于平淡战术系统限制了它的上限,,,;
 aEP_LiAnLiu,SHIP,公司的通用高速驱逐舰，中线上的三座背负式炮台为这艘战舰提供了多种火力方案。不仅如此，该舰的防护水平并未做出太大牺牲，适用于多种巡航任务，总是出没于公司冲突的第一线，也是外贸系列的重要型号。尽管幅散受限，利用战术系统在短时间放弃护盾依然能发挥出不错的火力。,,,;
 aEP_CengLiu,SHIP,一种提供火力支援的重型驱逐舰。将武器重振系统安装在中大型舰船上是一个困难的过程，越是大型的舰船，将缓存区承受的压力越大，整个舰体核心区有相当一部分是厚实的舱壁，体型也不得不随之增大。这一切都是为了提升短时间火力的提升，使用这个型号的驱逐舰需要相当严格的遵循一定战术条例，落在乌合之众手里它毫无价值。,,,
