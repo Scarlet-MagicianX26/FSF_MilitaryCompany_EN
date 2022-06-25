@@ -117,15 +117,15 @@ aEP_supress_needle_large,WEAPON,"This anti-shield weapon, which uses electromagn
 ,,,,,
 ,,,,,
 #中实弹/能量,,,,,
-aEP_kinetic_flak,WEAPON,"The company's standard weapon, a rapid-fire rotary cannon is capable of firing 12 large calibre shells in succession from two barrels. While capable of outputting conventional levels of sustained firepower, this can be increased when the magazine is filled.",,,
+aEP_kinetic_flak,WEAPON,"The company's standard area-defense weapon, a rapid-fire rotary cannon is capable of firing 12 large calibre shells in succession from two barrels. While capable of outputting conventional levels of sustained firepower, this can be increased when the magazine is filled.",,,
 aEP_long_barrel_chaingun,WEAPON,"A weapon that fires small calibre anti-ship munitions continuously, the combination of accuracy and rapid fire poses a serious threat to most light armoured ships. Its threat to the hull increases if it can sustain a hit on the armour
 
 In order to maintain range, the rifling pressure, barrel length and barrel wall thickness of the projectile were greatly increased, while the mass of the warhead was reduced. At the cost of this, the direct impact of the projectile was not worth much against the heavy armour, and too much powder gas was ejected from the muzzle of the gun to form a cloud of smoke when fired. Although the smoke did not affect the performance of the fire control system in any way, it left a mark on the hull, which was much criticised by clean-loving captains. In any case, the development of this weapon did pose a significant threat, although neither the user nor the victim liked it very much.",,,;
 aEP_suppress_needle,WEAPON,"An easy to build and uncomplicated weapon, using electromagnetic acceleration to fire light mass needles with great accuracy and speed, but the need for heat dissipation from the magnetic rail system also limits the frequency of fire. A low cost weapon for ships, it has a place in practice for its high hit rate when shooting at long range targets, although its paper figures are far inferior to those of its rival.",,,;
-aEP_trauma_cannon,WEAPON,"FSF公司开发的一款轻量化炼狱炮，采用一次性的储热罐吸收发射时的大量热量使其缩减了冷却系统的大小，能够以中槽位武器的大小，在不牺牲辐能利用效率的情况下发射破坏力远超普通装药弹的子弹。                                   
-这款武器的原型，根据铭文推断大概是人之领时代某军团少量装备的实验性武器，或许是停留在数据收集阶段相当早期的产品，其性能相当平庸。推测是于大崩溃前就有少量原型流出，其独特的散热设计抓住了FSF开发者的眼球，研发出了此款武器",,,;
-aEP_high_speed_HE,WEAPON,是一种使用集束弹药的狙击武器，用于在远距离消灭高速轻目标，以面杀伤弥补对目标高速运动的补偿问题。尽管做了诸多努力，榴霰弹本身的物理性质仍然阻止了有效射程的进一步提升,,,
-aEP_EMP_pike,WEAPON,"一种使用电磁加速发射巨大钉矛的武器,其弹药外壳使用了特殊金属,硬度足以穿刺护盾和装甲,内部电容器周期性放电会干扰目标舰船运作.这样的弹药每一发都非常昂贵.",,,
+aEP_trauma_cannon,WEAPON,"A lightweight inferno cannon developed by FSF that uses a disposable heat reservoir to absorb the large amount of heat generated during firing, allowing it to reduce the size of its cooling system and fire bullets with far greater destructive power than normal charges without sacrificing efficiency, with the size of a medium slot weapon.
+The prototype of this weapon, based on the inscription, was probably an experimental weapon equipped by a small number of legions in the Domain Era, perhaps quite early in the data collection phase, and its performance was rather mediocre. It is assumed that a small number of prototypes were released before the Collapse and that its unique thermal design caught the eyes of the FSF development teams.",,,;
+aEP_high_speed_HE,WEAPON,"A sniper-type weapon that uses cluster ammunition to destroy high speed light targets at long range, compensating for the problem of compensating for the high speed movement of the target with a surface kill. Despite all the efforts made, the physical nature of the shrapnel itself prevented further increases in effective range.",,,
+aEP_EMP_pike,WEAPON,"A weapon that uses electromagnetic acceleration to fire huge spiked spears with a special metal casing hard enough to pierce shields and armour, and an internal capacitor that periodically discharges to interfere with the operation of the target ship. Each round of this ammunition is very expensive.",,,
 ,,,,,
 ,,,,,
 ,,,,,
