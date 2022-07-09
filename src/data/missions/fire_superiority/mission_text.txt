@@ -1,4 +1,5 @@
-﻿地点: FSF星系核心防御站的培训中心
-日期: 200.05.20
+﻿Location: FSF System Core Defense Station Training Centre
+Date: 200.05.20
 
-学习如何发挥公司舰船的火力优势，通过合理装配在模拟战中取得优势。
+Learn how to
+Learn how to take advantage of the superior firepower of the company's ships and gain an advantage in combat simulation through proper loadouts.

@@ -1,10 +1,11 @@
-﻿地点: Lamdor X 轨道上方
-日期: 183.01.12
+﻿Location: Lamdor X Orbit
+Date: 183.01.12
 
-"该死的他们到底是怎么回事，那是极光级吗，他们已经追了我们好几天了，你跟我说他们是海盗？？我觉得海盗可没有该死的极光级，他们找到我们了，藏在星云里一点用都没有。——Ship Shredder完毕"
-
-
-"把护盾撑起来，伙计，不管是什么我们都要硬碰硬了，自从买了这两艘巡洋舰我们已经十几年没碰到被撵着跑的情况了，我觉得它还能在挺个十几年。——Lamdor Defener完毕"
+"Damn what's going on "
+"Damn what the hell is wrong with them, is that an Aurora class, they've been chasing us for days, and you're telling me they're pirates? I don't think pirates have a damn Aurora class, they found us, hiding in the nebula didn't help at all.--Ship Shredder Over."
 
 
-"见鬼见鬼见鬼，一定是那些该死的速子科技想把我们的战舰弄去研究，要是这仗我们能活下来我要去找公司要奖章，就说是'保护了你们珍贵的战舰免受邪恶速子科技的研究'，我舰系统一切正常，准备开战吧，就像以前一样打碎他们。——Ship Shredder完毕"
+"Put up the shield, man, whatever it is we're going hard, we haven't run into a situation where we've been whisked away in over a decade since we bought these two cruisers, and I think the ship can hold up for another decade or so.--Lamdor Defender Over."
+
+
+"Damn it, damn it, it must be those damn Tachyons trying to get our ships for research, if we survive this battle I'm going to the company for a medal and say 'we protected your precious ships from evil tachyon researchers', all systems nominal on my ship, prepare for battle and crush them like we have always been.--Ship Shredder Over."
