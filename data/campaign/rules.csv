@@ -24,7 +24,7 @@ $entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""I'll assign
 OR
 ""Only the side with the greater power can decide; today you have no right to decide.""
 OR
-""Maybe you can run away for a while before I begin blowing your fleet into wreckage.""
+""Maybe you can run away for a while before I begin blowing your fleet to wreckage.""
 ",cutCommLink:Cut the comm link,
 ,,,,,,
 ,,,,,,
@@ -38,7 +38,7 @@ aEP_ConsultGreeting01,PickGreeting,"$isaEP_Consult
 ","$personName gives you a professional smile: ""Hello, welcome to the front desk, what can I do for you?""
 ","0:aEP_offer_remain_part01:Ask $personName ""I heard that you are buying salvage parts?""
 1:aEP_marine_training01:Ask $personName ""I want to train some Marines""
-#2:aEP_hair_security01:Want to hire a  patrol to improve the security of the star system I control
+#2:aEP_hair_security01:Want to hire a patrol to improve the security of a star system I control
 3:cutCommLink:""I'm just browsing.""",
 aEP_ConsultGreeting02,PickGreeting,"$isaEP_Consult
 $faction.isHostile
@@ -83,7 +83,7 @@ aEP_marine_training_show,DialogOptionSelected,$option == aEP_marine_training_sho
 aEP_marine_training_start,DialogOptionSelected,$option == aEP_marine_training_start,aEP_TrainMarine start,,,
 ,,,,,,
 aEP_marine_training_deal,DialogOptionSelected,"$option == aEP_marine_training_deal
-",,"""Very well, training will be completed in about 3 months, at which time your crew will be re-boarded when you visit a non-hostile space station.""","0:cutCommLink:""Alright.""",
+",,"""Very well, training will be completed in about 3 months, at which time your crew will re-board when you visit a non-hostile space station.""","0:cutCommLink:""Alright.""",
 aEP_marine_training_complete,MarketPostDock,"aEP_TrainMarine check
 $hasMarket
 !$faction.isHostile
@@ -114,7 +114,7 @@ $faction.isHostile SCORE:10000
 $faction.AWM_MetYang == true
 
 ","ShowPersonVisual
-","""Even though I personally trust your strength and competence, it would be troublesome to get involved with you given your current relationship with the Company. We'll talk about other things when you've resolved your reputation with us.""",0:cutCommLink:Cut the comm link,
+","""Even though I personally trust your strength and competence, it would be troublesome to get involved with you given your current relationship with the Company. We'll talk about other things after you've resolved your reputation with us.""",0:cutCommLink:Cut the comm link,
 aEP_researcher_stage0_greeting_normal,PickGreeting,"$isaEP_Researcher 
 $faction.AWM_MetYang == false
 $faction.AWM_1Complete == false","ShowPersonVisual
@@ -128,14 +128,14 @@ aEP_researcher_stage0_talk02,DialogOptionSelected,$option == aEP_researcher_stag
 
 From the looks of things $heOrShe should have fairly high clearance, at least high enough to bring a stranger through the fortress unhindered. After some time on foot, you arrive at what appears to be a design office. Walking through the side-by-side offices along the way, you can see the drawings on the computers inside, and as a captain you immediately realize that what this place is designing are shipboard weapons.
 
-After walking through the office area, you ascend an escalator to what appears to be the management area. In front of the office with ""Project Manager"" on the door, $personFirstName swipes a card, opening the door.",0:aEP_researcher_stage0_talk03:Follow $heOrShe in,
+After walking through the office area, you ascend through an escalator to what appears to be the management area. In front of the office with ""Project Manager"" on the door, $personFirstName swipes a card, opening the door.",0:aEP_researcher_stage0_talk03:Follow $heOrShe in,
 aEP_researcher_stage0_talk03,DialogOptionSelected,$option == aEP_researcher_stage0_talk03,aEP_AdvanceWeaponMission show1,"$personFirstName sits down on $heOrShe's seat and says to you while operating the terminal, ""To make it short, I want you to collect some weapons for me in the name of your fleet,"" $heOrShe sends a detailed message to your personal terminal, detailing what is needed.","0:aEP_researcher_stage0_talk04:""I feel like I'm entitled to some explanation at least.""
 1:aEP_researcher_stage0_AskAccept:Continue",
 aEP_researcher_stage0_talk04,DialogOptionSelected,$option == aEP_researcher_stage0_talk04,,"""Very interested in the matter, I like that."", $heOrShe says as she stops what she is doing and gets up and walks around to you, crossing her arms over her chest and leaning her back against the wall. ""I should formally introduce myself;, I am the director of the 'Advanced Weapons Program', the AWP for short, a sort of researcher but not the kind you are usually thinking of.""
 
 ""My job is to ensure the smooth running of the project, which means being familiar with various 'channels' such as you, Captain."", $personFirstName left the wall and continued while returning to $hisOrHer's computer desk, ""I've researched your exploits and believe that building a relationship with you would be beneficial to both me personally and the company.""
 
-""I can't say much about the 'Advanced Weapons Program', just go with the name for now. For some tasks, going through the process takes more effort than getting a capable independent captain like you to handle them, which is why I've spent all the trouble looking for you. If you accept, in return I will give you some prototype weapons that are not available on the market; do think of it as helping us test the data, rest assured they are feature-complete and operational in all manner, just not mass produced for various reasons.""","0:aEP_researcher_stage0_AskAccept:""Very reasonable.""",
+""I can't say much about the 'Advanced Weapons Program', just go with the name for now. For some tasks, going through the red tape takes more effort than getting a capable independent captain like you to handle them, which is why I've spent all the trouble looking for you. If you accept, in return I will give you some prototype weapons that are not available on the market; do think of it as helping us test the data, rest assured they are feature-complete and operational in all manner, just not mass produced for various reasons.""","0:aEP_researcher_stage0_AskAccept:""Very reasonable.""",
 aEP_researcher_stage0_AskAccept,DialogOptionSelected,$option == aEP_researcher_stage0_AskAccept,,"""Do you accept this mission?""","0:aEP_researcher_stage0_Accept:Accept
 1:aEP_researcher_stage0_Decline:Decline
 ",
@@ -199,18 +199,18 @@ aEP_AdvanceWeaponMission shouldStart2
 ","ShowPersonVisual
 $faction.AWM_2Talked = true","After picking up the comms, you meet up in the commercial area of the open area of the station, $personName this time is not wearing the Institute's clothes, but the FSF uniform, looking more like a commanding officer of some sort belonging to the company. Like last time, $heOrShe leads you through the restricted area like nobody's business, but this time instead of going to the Institute, you go straight into the military area.
 
-Eventually you stop at some sort of conference room, where a presentation seems to have been held earlier, with a central holographic projection of a ship you can't identify floating in the asteroid belt, presumably some sort of self-replicating unmanned probe ship from the rough structural finish and the painted Domain of Man pattern.
+Eventually you stop at some sort of conference room, where a presentation seems to have been held earlier, with a central holographic projection of a ship you can't identify floating in asteroid belt, presumably some sort of self-replicating unmanned probe ship from the rough structural finish and the painted Domain of Man pattern.
 
 $personFirstName stands by and waits for you to finish examining the strange ship, then gestures and the holographic projection begins to play the aftermath. The drone ship stays silent while asteroids float around, and the moment a certain asteroid is about to hit the drone ship, it creates a shield.",0:aEP_researcher_stage1_talk01:Continue,
 aEP_researcher_stage1_talk01,DialogOptionSelected,$option == aEP_researcher_stage1_talk01,,"$personFirstName looks at the tablet in $hisOrHer hand and says to you, ""This mission is urgent. The requirement is to destroy this particular Domain-era unmanned probe ship and bring back its shield core.""","0:aEP_researcher_stage1_talk02:""Looks like some kind of unmanned probe with shields installed, what's so unique about it that you can't handle it?""",
 aEP_researcher_stage1_talk02,DialogOptionSelected,$option == aEP_researcher_stage1_talk02,,"As if $heOrShe knew this query would come up, $personFirstName flips the tablet over in his hand, displaying a battle report from one of the FSF fleets, explaining like you did, ""Three months ago a company-employed exploration fleet discovered this unique drone ship, the source of the hologram you just saw. The company then sent a medium sized combat fleet to recover the drone ship, and a firefight ensued.""
 
-$heOrShe hands you the tablet and says: ""The results are on this report. After suffering light sized losses, the fleet commander judged that although he could have won the engagement, he would have caused a lot of unnecessary damage and so applied to command to have another, larger fleet deal with it - given the special nature of this ship, I felt you would be the best person to do so.""","0:aEP_researcher_stage1_talk03:""Why am I the best person for the job? I don't really understand.""
+$heOrShe hands you the tablet and says: ""The results are on this report. After suffering light losses, the fleet commander judged that although he could have won the engagement, he would have caused a lot of unnecessary damage and so requested the command to have another, larger fleet deal with it - given the special nature of this ship, I felt you would be the best person to do so.""","0:aEP_researcher_stage1_talk03:""Why am I the best person for the job? I don't really understand.""
 1:aEP_researcher_stage1_talk04:""Tell me about the characteristics of the target, I need more information.""",
 aEP_researcher_stage1_talk03,DialogOptionSelected,$option == aEP_researcher_stage1_talk03,aEP_AdvanceWeaponMission show2,"$personFirstName stands across from you and laughs out loud, rushing to cover $hisOrHer mouth with $hisOrHer hand and says, ""I'm so sorry $playerName, it looks like you're a bit slower to the uptake than I thought."" Sensing that $personFirstName means no harm, you smile back to hide your embarrassment.
 
-""Simple question, firstly this is a very special drone ship and our Institute wants its data very badly, it is equally important to keep it out of the hands of other powers. Secondly, a medium battle fleet followed immediately by a large battle fleet heading towards the same place will be the talk of the star field no matter what they bring back. That's why this would be a lot more trouble for the company to do than for you to do it - no one is going to be watching where independent captains are flying all day, and it's better to let this ship be a secret than provoke a troublesome scuffle over it.""",,
-aEP_researcher_stage1_talk04,DialogOptionSelected,$option == aEP_researcher_stage1_talk04,aEP_AdvanceWeaponMission show2,"$personFirstName fiddles with the tablet a few times, pulls up a document, and hands it back to you while explaining, ""What makes this drone ship special is not just that it 'has' shields, installing shields on an unshielded ship is not that difficult, all it takes is an ai with faulty logic. what really caught our attention was its impossibly good shield efficiency. According to the description in the previous engagement report, the ship's shields only began to show instability after taking several times the damage of a conventional ship's shield absorption limit, and the fleet's technical officer judged that with the current firepower strength to overload its shields the fleet would suffer greater losses.""
+""Simple question, firstly this is a very special drone ship and our Institute wants its data very badly, it is equally important to keep it out of the hands of other powers. Secondly, a medium battle fleet followed immediately by a large battle fleet heading towards the same place will be the talk of the sector no matter what they bring back. That's why this would be a lot more trouble if it were the company, instead of you, doing it - no one is going to be watching where independent captains are flying all day, and it's better to let this ship be a secret than provoke a troublesome scuffle over it.""",,
+aEP_researcher_stage1_talk04,DialogOptionSelected,$option == aEP_researcher_stage1_talk04,aEP_AdvanceWeaponMission show2,"$personFirstName fiddles with the tablet a few times, pulls up a document, and hands it back to you while explaining, ""What makes this drone ship special is not just that it 'has' shields, installing shields on an unshielded ship is not that difficult, all it takes is an ai with faulty logic. what really caught our attention was its impossibly good shield efficiency. According to the description in the previous engagement report, the ship's shields only began to show instability after taking several times the damage of a conventional ship's shield absorption limit, and the fleet's technical officer judged that with the current firepower to overload its shields the fleet would have to suffer greater losses.""
 
 Seeing your half-hearted look, $personFirstName doesn't show you any more information, but continues, ""Aside from the unreasonable shields, the rest of the ship, like its counterparts in the sector, can simply be called 'serviceable' - which means there are many ways you can take it apart.""",,
 aEP_researcher_stage1_talk05,DialogOptionSelected,$option == aEP_researcher_stage1_talk05,aEP_HandInParts aEP_long_barrel_chaingunAP -2 none 0,"""I'll pay part of it in advance, but it's something that hasn't been put into mass production and the Company doesn't have a lot of it.""","0:aEP_researcher_stage1_AskAccept:""Thank you very much""",
@@ -285,7 +285,7 @@ aEP_researcher_stage2_talk03,DialogOptionSelected,$option == aEP_researcher_stag
 
 ""We have enough information to suggest that the test fleet was not simply hijacked from the outside by the pirates, but that someone hacked into the flagship's systems during the contact and sent orders to the surrounding fleet to surrender, allowing the pirates to easily take over the entire fleet."" ,said $personFirstName pausing for a moment, ""This means that we have a mole in our test fleet, and it also means that this group of pirates now has a military grade fleet.""","0:aEP_researcher_stage2_talk04:""I can understand why you are so anxious.""
 ",
-aEP_researcher_stage2_talk04,DialogOptionSelected,$option == aEP_researcher_stage2_talk04,,"""That's not the main reason for my anxiety, the real big problem is the weapon system on this prototype ship, it's an over-the-horizon strike cruise missile that can destroy a small fleet before sensors can detect an image of the enemy fleet, if a strategic level weapon from our hands flows to the pirates and is used by them to attack other forces, we have a big problem, this is a problem that involves the entire Sector. The Hegemony won't just sit idly by...in any case, I want you to destroy that fleet; as for the prototype ship, you can keep it for yourself or give it to us, I trust you won't abuse it.""","0:aEP_researcher_stage2_AskAccept:""Looks like this is a really serious matter.""",
+aEP_researcher_stage2_talk04,DialogOptionSelected,$option == aEP_researcher_stage2_talk04,,"""That's not the main reason for my anxiety, the real big problem is the weapon system on this prototype ship, it's an over-the-horizon strike cruise missile that can destroy a small fleet before sensors can detect an image of the enemy fleet, if a strategic weapon from our hands flows to the pirates and is used by them to attack other factions, we would have a big problem that involves the entire Sector. The Hegemony won't just sit idly by...in any case, I want you to destroy that fleet; as for the prototype ship, you can keep it for yourself or give it to us, I trust you won't abuse it.""","0:aEP_researcher_stage2_AskAccept:""Looks like this is a really serious matter.""",
 aEP_researcher_stage2_AskAccept,DialogOptionSelected,$option == aEP_researcher_stage2_AskAccept,"ShowPersonVisual
 
 ","""Do you accept this mission?""","0:aEP_researcher_stage2_Accept:Accept
